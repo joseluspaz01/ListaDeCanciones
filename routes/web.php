@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/pantalla1', function () {
+    return view('pantalla1');
+});

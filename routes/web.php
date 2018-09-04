@@ -16,5 +16,11 @@ Route::get('/', function () {
 });
 
 Route::get('/pantalla1', function () {
-    return view('pantalla1');
+    return view('pantalla1',[
+        'Artista 1'=>'Katy perry',
+        'Artista 2'=>'Enrique',
+        'artista 3'=>'Ariana',
+
+
+    ]);
 });

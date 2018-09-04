@@ -14,19 +14,15 @@
             <td colspan=2><center><b> @yield('artista') </b</center></td>
         </tr>
 
-        $artistas['katy','Mikol','Lara'];
+       
 
-        @for($i=0; $i< count($artistas); $i++)
+        @for($i=0; $i< 10; $i++)
         <tr>
             <td><b> Artista  {{$i}} </b></td>
-            <td> y esto es </td>
+            <td>  </td>
         </tr>
         
-
         
-            <tr>
-                <td><b>{{$numero}} X {{$i}} </b></td><td>{{$numero * $i}}</td>
-            </tr>
             @endfor
 
 
